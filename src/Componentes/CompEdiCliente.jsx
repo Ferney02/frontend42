@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate , useParams} from "react-router-dom";
 import { useEffect, useState } from "react";
 
-const URL = 'http://localhost:5000/api/clientes/';
+const URL = 'https://backend42-ibkh.onrender.com/api/clientes';
 
 
 const CompEditarCliente = () => {
