@@ -3,7 +3,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const URL = 'http://localhost:5000/api/clientes/';
+//const URL = 'http://localhost:5000/api/clientes/';
+const URL = 'https://backend42-ibkh.onrender.com/api/clientes';
 
 
 
